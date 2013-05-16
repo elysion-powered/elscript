@@ -4,16 +4,15 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="2">
+    <Units Count="4">
       <Unit0>
         <Filename Value="elscript.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="elscript"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="35" Y="19"/>
+        <CursorPos X="9" Y="10"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -23,16 +22,48 @@
         <UnitName Value="ElysionScriptEngine"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="18" Y="31"/>
+        <TopLine Value="14"/>
+        <CursorPos X="37" Y="33"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="elysionscriptparser.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ElysionScriptParser"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="51" Y="14"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="elysionscriptvariable.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ElysionScriptVariable"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="17" Y="12"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit3>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="0" HistoryIndex="-1"/>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="elysionscriptengine.pas"/>
+        <Caret Line="20" Column="34" TopLine="5"/>
+      </Position1>
+      <Position2>
+        <Filename Value="elysionscriptparser.pas"/>
+        <Caret Line="19" Column="29" TopLine="1"/>
+      </Position2>
+    </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>
 </CONFIG>

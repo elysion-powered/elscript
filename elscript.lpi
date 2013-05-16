@@ -33,7 +33,7 @@
         <FormatVersion Value="1"/>
       </local>
     </RunParams>
-    <Units Count="2">
+    <Units Count="4">
       <Unit0>
         <Filename Value="elscript.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -44,6 +44,16 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="ElysionScriptEngine"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="elysionscriptparser.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ElysionScriptParser"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="elysionscriptvariable.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ElysionScriptVariable"/>
+      </Unit3>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

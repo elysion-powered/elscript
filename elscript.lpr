@@ -3,7 +3,7 @@ program elscript;
 {$mode objfpc}{$H+}
 
 uses
-  ElysionScriptEngine;
+  ElysionScriptEngine, ElysionScriptParser, ElysionScriptVariable;
 
 var
   ScriptEngine: TelScriptEngine;
