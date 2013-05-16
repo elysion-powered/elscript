@@ -31,10 +31,11 @@
         <Filename Value="elysionscriptparser.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="ElysionScriptParser"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="51" Y="14"/>
+        <TopLine Value="8"/>
+        <CursorPos X="54" Y="26"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit2>
@@ -42,11 +43,10 @@
         <Filename Value="elysionscriptvariable.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="ElysionScriptVariable"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="17" Y="12"/>
+        <CursorPos X="7" Y="12"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit3>
@@ -54,7 +54,7 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="2" HistoryIndex="1">
+    <JumpHistory Count="4" HistoryIndex="3">
       <Position1>
         <Filename Value="elysionscriptengine.pas"/>
         <Caret Line="20" Column="34" TopLine="5"/>
@@ -63,6 +63,14 @@
         <Filename Value="elysionscriptparser.pas"/>
         <Caret Line="19" Column="29" TopLine="1"/>
       </Position2>
+      <Position3>
+        <Filename Value="elysionscriptvariable.pas"/>
+        <Caret Line="12" Column="17" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="elysionscriptparser.pas"/>
+        <Caret Line="21" Column="57" TopLine="1"/>
+      </Position4>
     </JumpHistory>
   </ProjectSession>
   <EditorMacros Count="0"/>
