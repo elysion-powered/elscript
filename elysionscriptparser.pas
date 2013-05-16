@@ -17,6 +17,8 @@ type
     destructor Destroy; Override;
 
     function Parse(aString: WideString): Boolean;
+  public
+    Variables: array of TelScriptVariable;
   end;
 
 implementation
