@@ -5,7 +5,7 @@ unit ElysionScriptEngine;
 interface
 
 uses
-  Classes, SysUtils;
+  Classes, SysUtils, ElysionScriptParser;
 
 type
 
@@ -14,8 +14,10 @@ type
   TelScriptEngine = class
   private
     fContent: WideString;
+    fParser: TelScriptParser;
   public
     constructor Create; Overload;
+    destructor Destroy; Override;
 
     function Execute: Boolean;
   published
@@ -28,7 +30,16 @@ implementation
 
 constructor TelScriptEngine.Create;
 begin
+  fParser := TelScriptParser.Create;
+
   fContent := '';
+end;
+
+destructor TelScriptEngine.Destroy;
+begin
+  fParser.Destroy;
+
+  inherited Destroy;
 end;
 
 function TelScriptEngine.Execute: Boolean;
