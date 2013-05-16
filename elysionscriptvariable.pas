@@ -11,9 +11,6 @@ type
     VarType: String;
   end;
 
-uses
-  Classes, SysUtils;
-
 implementation
 
 end.
